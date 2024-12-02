@@ -59,3 +59,65 @@ In this section element, add:
     - An image
     - A heading tag (level 3)
     - A text
+
+### 3. Quote
+
+Under the banner, we will add the quote block:
+The quote section is inside the main:
+
+- Create a new section for the quote
+- Inside, add a block containing:
+  - An image
+  - Another block with inside:
+    - A blockquote tag
+    - A text tag for the quote author
+    - Another text
+
+### 4. Videos
+
+Let’s now add the videos list:
+New section containing:
+
+- A heading tag (level 1)
+- A block containing the 4 video blocks - each of them are composed with:
+  - An image
+  - A heading (level 2)
+  - A text
+  - Add a block for the author information:
+    - An image
+    - A heading (level 3)
+  - A block for the rating:
+    - A block of images (one star = one image)
+    - A text
+
+### 5. Membership
+
+The Membership section is similar to the videos list:
+After the videos list section, add a new section containing:
+
+- A heading (level 1)
+- A block containing 4 block items - each block containing:
+  - An image
+  - A heading (level 2)
+  - A text
+- A button
+
+### 6. FAQ
+
+The FAQ section is ending the page before the footer:
+Add a section for the FAQ containing:
+
+- A heading (level 1)
+- A block that contains 2 “row blocks”
+- Each “row block” contains 2 “item blocks”
+- Each “item block” is composed of: - A heading (level 2) - A text
+  Hint: There is no “row block” tag, “row” is referring to the styling that will be applied in a future project. It just means two “rows” containing two “items” each, also containing their own elements.
+
+### 7. Footer
+
+After the last section, outside of the main, add a footer:
+
+- A block (used later for centering the footer content), inside this block: - Another block with: - An image - Another block containing: - 3 Images with link - A text
+  And… that’s it for the moment - the result should not be shiny, don’t worry, CSS is coming…
+
+---
