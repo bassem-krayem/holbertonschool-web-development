@@ -1,2 +1,7 @@
 # holbertonschool-web-development
-a ripo for  the web full stack projects and tasks in holberton school
+
+A ripo where we put the project of holberton school and there tasks
+
+## HTML advanced:
+
+Here we will make a web site just with html elements to learn it, without any styling
