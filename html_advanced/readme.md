@@ -42,3 +42,20 @@ Here is the wireframe of it:
 - Inside this header:
   - Add a link element with an image inside
   - Add a block of 3 link elements
+
+### 2. Banner
+
+Now, the banner inside the main:
+Add a main tag that has a section element inside.
+In this section element, add:
+
+- A block containing:
+  - A heading tag (level 1, don’t forget to use the correct heading value)
+  - A text element
+  - A button tag
+- Another block containing:
+  - Another heading tag (level 2, be careful about which one you are using)
+  - A block containing 4 blocks - each block containing:
+    - An image
+    - A heading tag (level 3)
+    - A text
