@@ -1,6 +1,7 @@
 # html_advanced:
 
 Here we will make a web site just with html elements to learn it, without any styling
+![The project screenshote from a figma file](homePage.jpg)
 
 ## Learning Objectives
 
