@@ -117,5 +117,6 @@ Add a section for the FAQ containing:
 
 After the last section, outside of the main, add a footer:
 
-- A block (used later for centering the footer content), inside this block: - Another block with: - An image - Another block containing: - 3 Images with link - A text
+- A block (used later for centering the footer content), inside this block: \
+- Another block with: \- An image \- Another block containing: \- 3 Images with link \- A text\
   And… that’s it for the moment - the result should not be shiny, don’t worry, CSS is coming…
