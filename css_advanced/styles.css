@@ -57,4 +57,50 @@ h1.banner {
   font-size: 16px;
 }
 
+/* Quote Section Styling */
+#quote-section {
+  height: 392px;
+  background-color: #c271ff;
+  color: #ffffff;
+  font-size: 22px;
+  line-height: 33.6px;
+  display: flex;
+  align-items: center;
+}
+
+#quote-div {
+  width: 943px;
+  height: 160px;
+  margin: auto;
+  align-self: center;
+  display: flex;
+  justify-content: space-between;
+  /* Reset margins for child elements */
+}
+#quote-div * {
+  margin: 0;
+}
+
+#quote-text {
+  width: 730px;
+  height: 158px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: left;
+}
+
+#quote-author {
+  font-weight: bold;
+}
+
+#quote-author-profession {
+  font-style: italic;
+}
+
+/* Rounded image styling */
+img.round-edge {
+  border-radius: 10px;
+}
+
 /*# sourceMappingURL=styles.css.map */
