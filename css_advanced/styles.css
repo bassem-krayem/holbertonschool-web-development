@@ -7,6 +7,7 @@
   --gray: #9e9e9e;
   --dark-primary-color: #388e3c; /* Darker Green */
   --light-primary-color: #c8e6c9; /* Light Green */
+  --transparent-black: rgba(0, 0, 0, 0.6); /* New variable */
 }
 
 * {
@@ -287,4 +288,111 @@ img.round-edge {
   outline-offset: 4px;
 }
 
-/*# sourceMappingURL=styles.css.map */
+/* FAQ Section Styling */
+#FAQ-section {
+  width: 920px;
+  height: 707px;
+  margin: auto;
+  margin-top: 50px; /* Adjust spacing as needed */
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: var(--black);
+}
+
+/* Title Styling */
+#FAQ-title {
+  font-weight: 300;
+  font-size: 60px;
+  line-height: 75.42px;
+  align-self: center;
+  text-align: center;
+}
+
+/* Content Layout */
+#FAQ-content {
+  display: flex;
+  flex-direction: column;
+  gap: 74px;
+}
+
+/* Row Styling */
+.FAQ-row-block {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* FAQ Item Styling */
+.FAQ-item-block {
+  width: 350px;
+  height: 242px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Question Styling */
+.FAQ-question {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20.11px;
+  color: var(--black);
+}
+
+/* Answer Styling */
+.FAQ-answer {
+  font-size: 14px;
+  line-height: 24px;
+  color: var(--transparent-black);
+}
+
+/* Footer Styling */
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 249px;
+  background-color: var(--black);
+  padding: 0 10%; /* Left and right padding of 10% */
+  color: var(--white);
+}
+
+/* Footer Row Block */
+#footer-row-block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px; /* Space between the row and copyright */
+}
+
+/* Social Media Links */
+#footer-sites {
+  width: 130px;
+  display: flex;
+  justify-content: space-between;
+  /* Link Styling */
+  /* Icon Styling */
+}
+#footer-sites a {
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 18px;
+  color: var(--white);
+}
+#footer-sites a:hover {
+  opacity: 0.8; /* Slight transparency on hover */
+}
+#footer-sites img {
+  height: 24px; /* Adjust as needed */
+  margin-right: 8px; /* Space between icon and text */
+}
+
+/* Footer Copyright */
+#footer-copyright {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.502); /* Semi-transparent white */
+  font-size: 12px;
+  line-height: 15.08px;
+  margin-bottom: 39px; /* Space between copyright and footer's bottom edge */
+}
