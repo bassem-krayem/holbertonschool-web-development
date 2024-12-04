@@ -1,0 +1,60 @@
+* {
+  font-family: "Source Sans Pro";
+}
+
+header {
+  text-align: center;
+  color: #ffffff;
+}
+header .nav a {
+  color: #ffffff;
+  font-weight: bold;
+}
+
+main section:first-of-type {
+  background: #071629 url("images/background.png") no-repeat center center;
+  background-size: cover;
+  text-align: center;
+  color: #ffffff;
+}
+main section:nth-of-type(2) h2 {
+  text-decoration: underline;
+  text-decoration-color: #c271ff;
+  font-weight: bold;
+}
+main section:nth-of-type(2) h2 .learn {
+  color: #c271ff;
+}
+main img.professional {
+  border-radius: 50%;
+}
+
+button.register {
+  background-color: #c271ff;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 10px;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+button.register:hover {
+  background-color: rgb(172.0915492958, 62, 255);
+}
+
+h1.banner {
+  font-size: 120px;
+  font-weight: bold;
+}
+
+.pros h3,
+.pros p {
+  font-size: 18px;
+}
+.pros h3 p,
+.pros p p {
+  font-size: 16px;
+}
+
+/*# sourceMappingURL=styles.css.map */
